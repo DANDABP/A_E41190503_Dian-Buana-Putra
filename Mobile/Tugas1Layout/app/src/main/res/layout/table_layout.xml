@@ -16,7 +16,7 @@
             android:layout_gravity="center"
             android:layout_span="2"
             android:text="@string/login"
-            android:textColor="#890000"
+            android:textColor="#FFFFFFFF"
             android:textSize="25sp"
             android:textStyle="bold"/>
 
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:text="@string/username"
             android:textSize="20sp"
-            android:textColor="#000000"
+            android:textColor="#FFFFFFFF"
             android:layout_marginLeft="20dip"></TextView>
 
         <EditText
@@ -45,12 +45,13 @@
         android:layout_marginTop="20dip">
 
         <Button
-            android:text="Submit"
-            android:clickable="true"
+            android:id="@+id/save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/save"
-            android:layout_span="2"></Button>
+            android:layout_span="2"
+            android:clickable="true"
+            android:text="Submit"
+            app:backgroundTint="#3F51B5"></Button>
 
     </TableRow>
 

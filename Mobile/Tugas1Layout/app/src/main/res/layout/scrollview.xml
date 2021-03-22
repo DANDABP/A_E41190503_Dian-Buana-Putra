@@ -1,84 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="false">
 
-    <LinearLayout xmlns:andoid="http://schemas.android.com/apk/res/android"
-        andoid:orientation="vertical"
-        andoid:layout_height="match_parent"
-        andoid:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
 
         <TextView
-            andoid:id="@+id/loginscrn"
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_marginTop="80dp"
-            andoid:text="ScrollView"
-            andoid:textSize="25dp"
-            andoid:textStyle="bold"
-            andoid:layout_gravity="center"/>
+            android:id="@+id/loginscrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="ScrollView"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
         <TextView
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:id="@+id/fstText"
-            andoid:layout_marginTop="20dp"
-            andoid:text="Welcome to Tutlane"
-            andoid:layout_gravity="center"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fstText"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to Tutlane"
+            android:layout_gravity="center"/>
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button One"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button One"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Two"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Two"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Three"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Three"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Four"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Four"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Five"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Five"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Six"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Six"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Seven"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Seven"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Eight"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Eight"
+            app:backgroundTint="#3F51B5" />
+
         <Button
-            andoid:layout_width="wrap_content"
-            andoid:layout_height="wrap_content"
-            andoid:layout_gravity="center"
-            andoid:layout_marginTop="60dp"
-            andoid:text="Button Nine"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Button Nine"
+            app:backgroundTint="#3F51B5" />
 
 
     </LinearLayout>

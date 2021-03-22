@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -12,39 +13,56 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button One"/>
+            android:text="Button One"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Two"/>
+            android:text="Button Two"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Three"/>
+            android:text="Button Three"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Four"/>
+            android:text="Button Four"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Five"/>
+            android:text="Button Five"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Six"/>
+            android:text="Button Six"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Seven"/>
+            android:text="Button Seven"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Eight"/>
+            android:text="Button Eight"
+            app:backgroundTint="#3F51B5" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button Nine"/>
+            android:text="Button Nine"
+            app:backgroundTint="#3F51B5" />
 
     </LinearLayout>
 
