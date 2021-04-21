@@ -13,19 +13,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/error', function () {
+    return view('error');
+})->name('error');
 
-//Route::get('/', 'ManagementUserController');
-// Route::resource('/user', ManagementUserController::class);
-// Route::get("/home", function(){
-//     return view("home");
-// });
-Route::group(['namespace' => 'Frontend'], function()
-    {
-        Route::resource('home', 'HomeController');
-    });
 Auth::routes();
+Route::middleware(['auth'])->group(function(){
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('roleAdmin');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::middleware(['admin'])->group(function(){
+        Route::get('admin',[AdminController::class, 'index']);
+    });
+    Route::get('/logout', function(){
+        Auth::logout();
+        redirect('/');
+    });
+});
+
+
+Route::get('admin/profile', function(){
+
+});//->middleware(CheckAge::class);
+
+//Route::group(['middleware' =>['web']], function(){
+//
+//});
+
+// Route::middleware(['web', 'subscribed'])->group(function(){
+
+// });
+//Route::put('post/{id}', function(id){
+    //
+//})->middleware('role:editor');
